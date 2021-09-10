@@ -1,0 +1,24 @@
+@import '../scss/componentes/navbar';
+@import '../scss/componentes/footer';
+@import '../scss/componentes/header';
+@import '../scss/componentes/timeline';
+@import '../scss/componentes/curriculum';
+@import '../scss/componentes/botones';
+
+
+@import '../scss/base/querys';
+@import '../scss/base/size';
+@import '../scss/base/variables';
+
+@import '../scss/paginas/index';
+@import '../scss/paginas/notas';
+
+@import '../scss/funciones/mixins';
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
