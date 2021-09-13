@@ -275,6 +275,11 @@ body .parrafos {
   align-items: center;
   justify-content: center;
 }
+body .logo-portada {
+  width: 10rem;
+  position: relative;
+  top: 10rem;
+}
 body .section {
   height: 1000px;
   width: 100%;
