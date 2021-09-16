@@ -76,18 +76,14 @@ body {
         }
 
         .parrafos {
-            font-size: 1rem;
             margin: 50px;
             text-align: center;
             align-items: center;
             justify-content: center;
+            padding: 0 15%;
+            font-size: 1.2rem;
         }
 
-        .logo-portada {
-            width: 10rem;
-            position: relative;
-            top: 10rem;
-        }
             
         .section {
         height: 1000px;
@@ -191,10 +187,7 @@ body {
             margin: 2rem auto;
         }
 
-        .parrafos {
-            padding: 0 15%;
-            font-size: 1.2rem;
-        }
+
         .titulo-recuadro {
             writing-mode: vertical-lr;
             text-orientation:sideways;
@@ -256,6 +249,8 @@ body {
         text-decoration: none;
         color: black;
         transition: 0.3s all;
+        cursor: pointer;
+
             &:hover {
                 color: nth($color,3);
             }
@@ -298,8 +293,12 @@ body {
     font-weight: bolder;
     font-family: 'Raleway', sans-serif;
     background-color: #F4005C;
+}
 
-
+.subrayado {
+    color: white;
+    font-weight: bolder;
+    background-color: #F4005C;
 }
 
 .arrow {
@@ -376,6 +375,14 @@ body {
     justify-content: center;
 }
 
+.parrafos-3 {
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 .titulos-rosa {
     font-size: 3rem;
     font-family: 'Raleway', sans-serif;
@@ -388,6 +395,7 @@ body {
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 
@@ -397,7 +405,6 @@ body {
     background: rgb(244, 0, 92);
     border-radius: 10px;
     color: white;
-    
 }
 
 .parrafos-card {
@@ -419,10 +426,79 @@ body {
     justify-content: center;
 }
 
+.link-rosa {
+    text-decoration: none;
+    color: rgb(244, 0, 92);
+    font-weight: bolder;
+    transition: 0.3s all;
+    cursor: pointer;
+        &:hover {
+            color: white;
+            background: rgb(244, 0, 92);
+        }
+}
 
+.link-blanco {
+    text-decoration: none;
+    color: rgb(244, 0, 92);
+    background: white;
+    font-weight: bolder;
+    transition: 0.3s all;
+    
+    cursor: pointer;
+        &:hover {
+
+            color: darkslategray;
+            background: white;
+        }
+}
+
+
+
+.cards-contacto {
+    width: 25%;
+    height: 200px;
+    background: rgb(244, 0, 92);
+    border-radius: 10px;
+    color: white;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parrafos-card-contacto {
+    font-size: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-card-contacto {
+    font-size: 1.2rem;
+    padding: 1rem 1rem 0rem 1rem;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.recursos {
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 2rem;
 
 }
 
+.point {
+    color: white;
+    font-size: 1.2rem;
+}
+
+}
 
 
 

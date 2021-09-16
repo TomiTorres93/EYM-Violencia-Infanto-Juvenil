@@ -32,3 +32,60 @@ header {
      
     }
 }
+
+
+.logo-portada {
+    width: 10rem;
+    position: relative;
+    top: 7rem;
+    animation: changeBorder 2s infinite;
+    animation-name: changeBorder;
+
+    @keyframes changeBorder {
+
+        0% {
+            opacity: 100%;
+        }
+
+        10% {
+            opacity: 90%;
+       }
+
+        20% {
+            opacity: 80%;
+               }
+
+        30% {
+            opacity: 70%;
+       }
+
+        40% {
+            opacity: 60%;
+        }
+
+        50% {
+            opacity: 50%;
+       }
+        
+        60% {
+            opacity: 60%;
+        }
+
+        70% {
+            opacity: 70%;
+       }
+
+        80% {
+            opacity: 80%;
+        }
+
+        90% {
+            opacity: 90%;
+       }
+        
+        100% {
+            opacity: 100%;
+        }
+
+}
+}
