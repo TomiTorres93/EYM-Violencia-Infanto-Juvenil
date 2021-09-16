@@ -10,25 +10,25 @@ ul {
 
 nav {
   padding-top: 8px;
-  background: #D90053;
   height: 100px;
 }
 
 li a {
   text-decoration: none;
   color: white;
-  margin: 10px;
   transition: 0.2s all;
+  position: relative;
+  right: 0.5rem;
 }
 li a:hover {
-  color: #4a9ccb;
+  color: yellow;
 }
 
 .menu {
-  width: 100%;
   color: black;
   letter-spacing: 3px;
-  justify-content: space-around;
+  justify-content: center;
+  text-align: center;
 }
 
 .logo {
@@ -41,6 +41,7 @@ li a:hover {
   color: white;
   font-size: 2rem;
   font-family: "Raleway", sans-serif;
+  text-align: center;
 }
 
 .footer {
@@ -228,7 +229,7 @@ header {
 
 /* MOBILE */
 /* Extends */
-.menu, .tl-container, .boton-container {
+.tl-container, .boton-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -617,6 +618,17 @@ body .link-rosa:hover {
   color: white;
   background: #f4005c;
 }
+body .link-rosa2 {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+body .link-rosa2:hover {
+  color: white;
+  background: #f4005c;
+}
 body .link-blanco {
   text-decoration: none;
   color: #f4005c;
@@ -665,6 +677,26 @@ body .recursos {
 body .point {
   color: white;
   font-size: 1.2rem;
+}
+body .footer-2 {
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  transition: 1.5s all;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+body .logo-footer {
+  width: 15rem;
+}
+body .detalle-text2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.7rem;
+  margin-top: 1rem;
+  color: black;
 }
 
 /* MIXINS */

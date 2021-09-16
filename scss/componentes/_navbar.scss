@@ -12,27 +12,26 @@ ul {
 
 nav {
     padding-top: 8px;
-    background: #D90053;
     height: 100px;
 }
 
 li a {
     text-decoration: none;
     color: white;
-    margin: 10px;
     transition: 0.2s all;
+    position: relative;
+    right: 0.5rem;
 
         &:hover {
-            color: nth($color,3 );      
+            color: yellow;      
     }
 }
 
 .menu {
-    @extend %flexbox;
-    width: 100%;
     color: black;
     letter-spacing: 3px;
-    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
 }
 
 .logo {
@@ -46,5 +45,6 @@ li a {
     color: white;
     font-size: 2rem;
     font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 

@@ -438,6 +438,18 @@ body {
         }
 }
 
+.link-rosa2 {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    transition: 0.3s all;
+    cursor: pointer;
+        &:hover {
+            color: white;
+            background: rgb(244, 0, 92);
+        }
+}
+
 .link-blanco {
     text-decoration: none;
     color: rgb(244, 0, 92);
@@ -498,6 +510,28 @@ body {
     font-size: 1.2rem;
 }
 
+.footer-2 {
+    height: 200px;
+    width: 100%;    
+    background-color: white;  
+    transition: 1.5s all;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.logo-footer {
+    width: 15rem;
+}
+.detalle-text2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.7rem;
+    margin-top: 1rem;
+    color: black;
+}
 }
 
 
