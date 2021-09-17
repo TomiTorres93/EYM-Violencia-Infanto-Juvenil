@@ -734,6 +734,7 @@ body .detalle-text2 {
   }
   body .titulos-blanco {
     font-size: 2.5rem;
+    margin-top: 1rem;
     padding: 0rem 1rem;
   }
   body .section-blanco-quees {
@@ -772,7 +773,7 @@ body .detalle-text2 {
   }
   body .cards {
     width: 80%;
-    height: 220px;
+    height: 235px;
     background: #f4005c;
     border-radius: 10px;
     color: white;
@@ -828,6 +829,10 @@ body .detalle-text2 {
   }
   body .section-extra {
     height: 2000px;
+  }
+  body .recursos {
+    font-size: 1.2rem;
+    padding: 0rem 1.5rem 0rem 1.5rem;
   }
 
   .titulo-portada {
