@@ -360,6 +360,27 @@ body {
     }
 }
 
+.arrow2 {
+    color: white;
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+    transition: all 0.5s;
+    text-shadow: #F4005C 1px 1px 1px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+
+  
+
+    &:hover {
+        color: #F4005C;
+        text-shadow: white 1px 1px 1px;
+        transform: translateY(10px);
+    }
+}
+
 .arrow-b {
     color: #F4005C;
     font-size: 4rem;
