@@ -777,6 +777,21 @@ body .video {
   width: 85%;
   height: 85%;
 }
+body .sectionb {
+  height: 1000px;
+  width: 100%;
+  background-color: #333333;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  transition: 1.5s all;
+  color: white;
+}
+body .sectionb:hover {
+  background-color: rgba(51, 51, 51, 0.9);
+}
 
 /* MIXINS */
 /*USADOS PARA LAS CLASS: DETACADO Y TITULOS*/
@@ -963,6 +978,10 @@ body .video {
 
   .section-video {
     height: 400px;
+  }
+
+  .sectionb {
+    height: 1150px;
   }
 }
 
