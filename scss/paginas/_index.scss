@@ -271,6 +271,47 @@ body {
     margin: 10px;
 }
 
+.continuar {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: 0.5s all;
+    writing-mode: vertical-rl;
+    text-orientation:upright;
+    position: absolute;
+    left: 1%;
+    bottom: 35%;
+    opacity: 25%;
+    
+    &:hover {
+        color: #F4005C;
+        opacity: 100%;
+        text-shadow: white 1px 1px 1px;
+        transform: translateY(10px);
+    }
+}
+
+.continuar-w {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: 0.5s all;
+    writing-mode: vertical-rl;
+    text-orientation:upright;
+    position: absolute;
+    left: 0.2rem;
+    bottom: 35%;
+    opacity: 25%;
+    
+    &:hover {
+        color: #F4005C;
+        opacity: 100%;
+        text-shadow: black 1px 1px 1px;
+        transform: translateY(10px);
+    }
+}
 
 .img-cover {
     height:max-content;
@@ -308,6 +349,7 @@ body {
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
+    margin-top: 4rem;
 
   
 
@@ -318,6 +360,26 @@ body {
     }
 }
 
+.arrow-b {
+    color: #F4005C;
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+    transition: all 0.5s;
+    text-shadow: black 1px 1px 1px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 4rem;
+
+  
+
+    &:hover {
+        color: #F4005C;
+        text-shadow: white 1px 1px 1px;
+        transform: translateY(10px);
+    }
+}
 .section-blanco-quees {
     height: 1000px;
     width: 100%;   
@@ -518,7 +580,7 @@ body {
 }
 
 .footer-2 {
-    height: 200px;
+    height: 250px;
     width: 100%;    
     background-color: white;  
     transition: 1.5s all;
@@ -539,6 +601,37 @@ body {
     margin-top: 1rem;
     color: black;
 }
+
+.portada-video {
+    position: absolute;
+    margin-top: 3rem;
+    transition: all 0.5s;
+
+    &:hover {
+        display: none;
+    }
+}
+
+
+.section-video {
+    height: 900px;
+    width: 100%;  
+    background-color: white;  
+    transition: 1.5s all;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+    }
+
+    .video {
+        width: 85%;
+        height: 85%;
+    }
+
 }
 
 

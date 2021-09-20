@@ -80,7 +80,7 @@ header {
 .logo-portada {
   width: 10rem;
   position: relative;
-  top: 7rem;
+  top: 1rem;
   animation: changeBorder 2s infinite;
   animation-name: changeBorder;
 }
@@ -452,6 +452,44 @@ body .detalle-text {
   font-size: 0.7rem;
   margin: 10px;
 }
+body .continuar {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: 0.5s all;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  position: absolute;
+  left: 1%;
+  bottom: 35%;
+  opacity: 25%;
+}
+body .continuar:hover {
+  color: #F4005C;
+  opacity: 100%;
+  text-shadow: white 1px 1px 1px;
+  transform: translateY(10px);
+}
+body .continuar-w {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: 0.5s all;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  position: absolute;
+  left: 0.2rem;
+  bottom: 35%;
+  opacity: 25%;
+}
+body .continuar-w:hover {
+  color: #F4005C;
+  opacity: 100%;
+  text-shadow: black 1px 1px 1px;
+  transform: translateY(10px);
+}
 body .img-cover {
   height: max-content;
   width: max-content;
@@ -482,8 +520,26 @@ body .arrow {
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
+  margin-top: 4rem;
 }
 body .arrow:hover {
+  color: #F4005C;
+  text-shadow: white 1px 1px 1px;
+  transform: translateY(10px);
+}
+body .arrow-b {
+  color: #F4005C;
+  font-size: 4rem;
+  font-weight: bolder;
+  font-family: "Raleway", sans-serif;
+  transition: all 0.5s;
+  text-shadow: black 1px 1px 1px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 4rem;
+}
+body .arrow-b:hover {
   color: #F4005C;
   text-shadow: white 1px 1px 1px;
   transform: translateY(10px);
@@ -661,7 +717,7 @@ body .point {
   font-size: 1.2rem;
 }
 body .footer-2 {
-  height: 200px;
+  height: 250px;
   width: 100%;
   background-color: white;
   transition: 1.5s all;
@@ -679,6 +735,30 @@ body .detalle-text2 {
   font-size: 0.7rem;
   margin-top: 1rem;
   color: black;
+}
+body .portada-video {
+  position: absolute;
+  margin-top: 3rem;
+  transition: all 0.5s;
+}
+body .portada-video:hover {
+  display: none;
+}
+body .section-video {
+  height: 900px;
+  width: 100%;
+  background-color: white;
+  transition: 1.5s all;
+  color: black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+body .video {
+  width: 85%;
+  height: 85%;
 }
 
 /* MIXINS */
@@ -714,6 +794,9 @@ body .detalle-text2 {
   }
 }
 @media only screen and (min-width: 100px) and (max-width: 600px) {
+  body .none-mobile {
+    display: none !important;
+  }
   body .detalle-text {
     font-family: "Raleway", sans-serif;
     font-size: 0.7rem;
@@ -738,7 +821,7 @@ body .detalle-text2 {
     padding: 0rem 1rem;
   }
   body .section-blanco-quees {
-    height: 800px;
+    height: 850px;
     width: 100%;
     transition: 1.5s all;
     color: black;
@@ -834,6 +917,19 @@ body .detalle-text2 {
     font-size: 1.2rem;
     padding: 0rem 1.5rem 0rem 1.5rem;
   }
+  body .arrow {
+    color: white;
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  body .arrow-b {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  body .video {
+    width: 100%;
+    height: 30%;
+  }
 
   .titulo-portada {
     font-family: "Nunito", sans-serif;
@@ -843,6 +939,10 @@ body .detalle-text2 {
     padding: 0 2rem;
     font-weight: 900;
     transition: 0.5s all;
+  }
+
+  .section-video {
+    height: 400px;
   }
 }
 

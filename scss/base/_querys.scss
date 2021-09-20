@@ -16,6 +16,10 @@
  @media only screen and (min-width: 100px) and  (max-width: 600px) {
 
 body {
+
+    .none-mobile {
+        display: none !important;
+    }
     .detalle-text {
         font-family: 'Raleway', sans-serif;
         font-size: 0.7rem;
@@ -47,7 +51,7 @@ body {
     }
 
     .section-blanco-quees {
-        height: 800px;
+        height: 850px;
         width: 100%;   
         transition: 1.5s all;
         color: black;
@@ -157,6 +161,22 @@ body {
         font-size: 1.2rem;
         padding: 0rem 1.5rem 0rem 1.5rem;
     }
+
+    .arrow {
+        color: white;
+        font-size: 3rem;
+        margin-top: 1rem;
+    }
+
+    .arrow-b {
+      font-size: 3rem;
+      margin-top: 1rem;
+    }
+
+    .video {
+        width: 100%;
+        height: 30% ;
+    }
 }
 
 
@@ -170,4 +190,10 @@ body {
     transition: 0.5s all;
 
 }
+.section-video {
+    height: 400px;
+
+    
+    }
+
 }
