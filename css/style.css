@@ -269,6 +269,7 @@ body .portada .img-index {
 }
 body .titulos {
   font-size: 3rem;
+  margin-top: 1.5rem;
   font-family: "Raleway", sans-serif;
 }
 body .parrafos {
@@ -295,7 +296,7 @@ body .section:hover {
   background-color: rgba(51, 51, 51, 0.9);
 }
 body .section-extra {
-  height: 1000px;
+  height: 1800px;
   width: 100%;
   background-color: #333333;
   text-align: center;
@@ -613,6 +614,7 @@ body .parrafos-2 {
 body .parrafos-3 {
   margin-top: 5rem;
   font-size: 1.5rem;
+  padding: 0rem 5rem;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -635,7 +637,7 @@ body .row3 {
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 body .cards {
