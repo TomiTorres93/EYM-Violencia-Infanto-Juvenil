@@ -322,6 +322,18 @@ body .section-blanco {
   flex-direction: column;
   justify-content: center;
 }
+body .section-blanco2 {
+  height: 1000px;
+  width: 100%;
+  background-color: white;
+  transition: 1.5s all;
+  color: black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 body .section-img {
   height: 1000px;
   width: 100%;
@@ -794,6 +806,27 @@ body .sectionb {
 body .sectionb:hover {
   background-color: rgba(51, 51, 51, 0.9);
 }
+body .sectionrow {
+  display: flex;
+  flex-direction: row;
+}
+body .titulos-blanco-video {
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: "Raleway", sans-serif;
+  background-color: #F4005C;
+  width: 35%;
+  padding: 1rem;
+}
+body .video-bb {
+  margin: 2rem;
+  height: 50%;
+  aspect-ratio: 16/9;
+  border-radius: 10px;
+  border: 5px black solid;
+  box-shadow: 10px 10px 1px #F4005C;
+}
 
 /* MIXINS */
 /*USADOS PARA LAS CLASS: DETACADO Y TITULOS*/
@@ -838,11 +871,11 @@ body .sectionb:hover {
     padding: 0rem 1rem;
   }
   body .titulos {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0rem 1rem;
   }
   body .parrafos {
-    padding: 0 5%;
+    padding: 0;
   }
   body .parrafos-3 {
     margin-top: 1rem;
@@ -850,12 +883,51 @@ body .sectionb:hover {
     padding: 0rem 1.4rem;
   }
   body .titulos-blanco {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin-top: 1rem;
     padding: 0rem 1rem;
   }
+  body .section-blanco {
+    height: fit-content !important;
+    padding: 2rem 1rem !important;
+  }
+  body .section {
+    height: fit-content !important;
+    padding: 2rem 1rem !important;
+  }
+  body .section-img {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: url("../images/bg-rosa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  body .titmob {
+    width: 90%;
+    margin: 0 auto;
+  }
+  body .titmob2 {
+    padding-top: 5rem;
+  }
+  body .titmob3 {
+    margin-bottom: 0.5rem;
+  }
+  body .sectionextrapeq {
+    height: fit-content !important;
+    padding: 2rem 1rem !important;
+  }
+  body .section-blanco2 {
+    height: fit-content !important;
+    padding: 2rem 1rem !important;
+  }
   body .section-blanco-quees {
-    height: 850px;
+    height: fit-content !important;
+    padding: 2rem 1rem !important;
     width: 100%;
     transition: 1.5s all;
     color: black;
@@ -886,7 +958,7 @@ body .sectionb:hover {
     flex-wrap: wrap;
   }
   body .titulos-rosa {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   body .cards {
     width: 80%;
@@ -918,7 +990,8 @@ body .sectionb:hover {
   }
   body .cards-contacto {
     width: 80%;
-    height: 220px;
+    height: fit-content;
+    padding: 0.5rem;
     background: #f4005c;
     border-radius: 10px;
     color: white;
@@ -945,7 +1018,8 @@ body .sectionb:hover {
     justify-content: center;
   }
   body .section-extra {
-    height: 2000px;
+    height: fit-content !important;
+    padding: 2rem 1rem !important;
   }
   body .recursos {
     font-size: 1.2rem;
@@ -979,11 +1053,60 @@ body .sectionb:hover {
   }
 
   .section-video {
-    height: 400px;
+    height: fit-content !important;
+    padding: 2rem 1rem !important;
   }
 
   .sectionb {
-    height: 1150px;
+    height: fit-content !important;
+    padding: 2rem 1rem !important;
+  }
+
+  .sectionrow {
+    display: flex;
+    flex-direction: column !important;
+    height: fit-content;
+    padding: 2rem 1rem !important;
+  }
+
+  .titulos-blanco-video {
+    color: white;
+    font-size: 1rem !important;
+    font-weight: bolder;
+    font-family: "Raleway", sans-serif;
+    background-color: #F4005C;
+    width: 90% !important;
+    padding: 1rem;
+  }
+
+  .video-bb {
+    margin: 1rem;
+    width: 95% !important;
+    height: 22rem !important;
+    border-radius: 10px;
+    border: 3px black solid;
+    box-shadow: 5px 5px 1px #F4005C;
+  }
+
+  .parrafos-3 {
+    font-size: 1.2rem !important;
+  }
+
+  .detalle-text2 {
+    padding: 0 20%;
+  }
+
+  .footer-2 {
+    height: fit-content !important;
+    padding: 2rem 1rem !important;
+  }
+
+  .recuadro-rosa {
+    padding: 0.5rem !important;
+  }
+
+  .parrafos-2 {
+    padding: 1rem 0;
   }
 }
 

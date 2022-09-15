@@ -28,12 +28,12 @@ body {
     }
 
     .titulos {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 0rem 1rem;
     }
 
     .parrafos {
-        padding: 0 5%;
+        padding: 0;
     }
 
 
@@ -45,14 +45,56 @@ body {
 
 }
     .titulos-blanco {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         margin-top: 1rem;
         padding: 0rem 1rem;
     }
+    .section-blanco {
+        height: fit-content !important;
+        padding: 2rem 1rem !important;    }
+
+    .section {
+        height: fit-content !important;
+        padding: 2rem 1rem !important;    }
+    .section-img {
+        height: 400px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background: url('../images/bg-rosa.png');
+        background-size: cover;
+        background-repeat: no-repeat;               
+    }
+
+    .titmob {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .titmob2 {
+        padding-top: 5rem;
+    }
+
+    .titmob3 {
+        margin-bottom: 0.5rem;
+    }
+
+    .sectionextrapeq {
+        height: fit-content !important;
+        padding: 2rem 1rem !important;    }
+
+    .section-blanco2 {
+        height: fit-content !important;
+        padding: 2rem 1rem !important;    }
+
 
     .section-blanco-quees {
-        height: 850px;
-        width: 100%;   
+        height: fit-content !important;
+        padding: 2rem 1rem !important;        width: 100%;   
         transition: 1.5s all;
         color: black;
         text-align: center;
@@ -88,7 +130,7 @@ body {
     }
     
     .titulos-rosa {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .cards {
@@ -125,8 +167,10 @@ body {
     
     .cards-contacto {
         width: 80%;
-        height: 220px;
-        background: rgb(244, 0, 92);
+        height: fit-content;
+
+padding: 0.5rem ;        
+background: rgb(244, 0, 92);
         border-radius: 10px;
         color: white;
         margin: 1rem;
@@ -154,8 +198,8 @@ body {
         justify-content: center;
     }
     .section-extra {
-        height: 2000px;
-        }
+        height: fit-content !important;
+        padding: 2rem 1rem !important;        }
 
     .recursos {
         font-size: 1.2rem;
@@ -194,15 +238,60 @@ body {
 
 }
 .section-video {
-    height: 400px;
-
-    
-    }
+    height: fit-content !important;
+    padding: 2rem 1rem !important;    }
 
     
     .sectionb {
-        height: 1150px;
+        height: fit-content !important;
+        padding: 2rem 1rem !important;    }
+
+    .sectionrow {
+        display: flex;
+        flex-direction: column !important;
+        height: fit-content;
+        padding: 2rem 1rem !important;      
+    }  
+
+      .titulos-blanco-video {
+        color: white;
+        font-size: 1rem !important;
+        font-weight: bolder;
+        font-family: 'Raleway', sans-serif;
+        background-color: #F4005C;
+        width: 90% !important;
+        padding: 1rem;
     }
 
+    .video-bb {
+        margin: 1rem;
+        width: 95% !important;
+        height: 22rem !important;
+        border-radius: 10px;
+        border: 3px black solid;
+        box-shadow: 5px 5px 1px #F4005C;
+    }   
+    
+    .parrafos-3 {
+        font-size: 1.2rem !important;
+    }
 
+    .detalle-text2 {
+        padding: 0 20%;
+    }
+
+    .footer-2 {
+        height: fit-content !important;
+        padding: 2rem 1rem !important;
+    }
+
+    .recuadro-rosa {
+        padding: 0.5rem !important;
+    }
+
+    .parrafos-2 {
+        padding: 1rem 0;
+    }
+
+ 
 }
